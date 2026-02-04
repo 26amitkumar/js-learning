@@ -17,8 +17,8 @@ for(let i =0; i <=n; i++){
  let table=5;
  
  for(let j=1; j<=10; j++){
-    result=table*j;
-    console.log('5 *'{j} = ${result});
+    let result= table*j;
+    console.log(`5 * ${j} = ${result}`);
     
  }
  
